@@ -12,12 +12,24 @@ namespace ConsoleApp_noite
         private int Id;
         public string Nome;
         public string Telefone;
+        private Endereco Endereco;
 
-        public Cliente(int id, string nome, string telefone)
+        public Cliente(int id, string nome, string telefone, Endereco endereco)
         {
             Id = id;
             Nome = nome;
             Telefone = telefone;
+            Endereco = endereco;
+        }
+
+        public void setEndereco(Endereco endereco)
+        {
+            Endereco = endereco;
+        }
+
+        public Endereco getEndereco()
+        {
+            return Endereco;
         }
 
         public int getId()
