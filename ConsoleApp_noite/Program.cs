@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ConsoleApp_noite;
 using ConsoleApp_noite.Heranca;
+using ConsoleApp_noite.ExercicioLista;
 
 
 Produto p1 = new Produto(1, 10.90M, "Cervejinha");
@@ -161,6 +162,44 @@ foreach (var item in listaVeiculo)
 Console.WriteLine("-------------------------------------------------------");
 
 //-------------------------------------------------------------------------------------------------
+/*
+Client v1 = new Client();
+v1.Nome = "Robson ";
+v1.Telefone = "16987562568";
+v1.Endereco = "Rua 1 de Agosto";
+v1.IdVenda = 1;
+v1.DataVenda = "10/02/2023";
+v1.Preco = 150;
+v1.Descricao = "Mouse Razer";
+
+Client v2 = new Client();
+v2.Nome = "Claudio ";
+v2.Telefone = "16999562587";
+v2.Endereco = "Rua Margarida";
+v2.IdVenda = 2;
+v2.DataVenda = "10/03/2023";
+v2.Preco = 45;
+v2.Descricao = "Caixa de Som";
+
+Client v3 = new Client();
+v3.Nome = "Silas ";
+v3.Telefone = "1633427070";
+v3.Endereco = "Av. Nações Unidas";
+v3.IdVenda = 3;
+v3.DataVenda = "10/09/2022";
+v3.Preco = 50;
+v3.Descricao = "Teclado";
+
+List<Client> listaClient = new List<Client>();
+listaClient.Add(v1);
+listaClient.Add(v2);
+listaClient.Add(v3);
+
+foreach (var item in listaClient)
+{
+    Console.WriteLine(item.ExibirVenda());
+}
+*/
 
 
 
