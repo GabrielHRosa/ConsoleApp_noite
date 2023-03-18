@@ -62,5 +62,10 @@ namespace ConsoleApp_noite
             Telefone = telefone;
         }
 
+        public string ExibirDados()
+        {
+            return "ID: " + Id + "Nome: " + Nome + " Telefone: " + Telefone;
+        }
+
     }
 }

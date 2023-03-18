@@ -48,5 +48,10 @@ namespace ConsoleApp_noite
             Id = id;
         }
 
+        public string ExibirDados()
+        {
+            return "ID: " + Id + " Valor: " + Valor + " Produto: " + Descricao;
+        }
+
     }
 }
