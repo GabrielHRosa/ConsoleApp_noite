@@ -162,7 +162,10 @@ foreach (var item in listaVeiculo)
 Console.WriteLine("-------------------------------------------------------");
 
 //-------------------------------------------------------------------------------------------------
-/*
+/*Crie uma classe vendas com uma lista de produtos comprada por um cliente
+
+Imprima na tela a lista de produtos , o Id da venda e a Data da venda.
+*/
 Client v1 = new Client();
 v1.Nome = "Robson ";
 v1.Telefone = "16987562568";
@@ -199,7 +202,7 @@ foreach (var item in listaClient)
 {
     Console.WriteLine(item.ExibirVenda());
 }
-*/
+
 
 
 

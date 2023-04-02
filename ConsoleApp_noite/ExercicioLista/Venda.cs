@@ -13,13 +13,10 @@ namespace ConsoleApp_noite.ExercicioLista
         public string IdProduto;
         public int Preco;
         public string Descricao;
-        public string Nome;
-        public string Telefone;
-        public string Endereco;
 
         public string ExibirVenda()
         {
-            return "Id Venda: " + IdVenda + " Data da Venda: " + DataVenda + "Id: " + IdProduto + " Preço: " + Preco + " Produto: " + Descricao;
+            return "Id Venda: " + IdVenda + " Data da Venda: " + DataVenda + " Preço: " + Preco + " Produto: " + Descricao;
         }
     }
 
